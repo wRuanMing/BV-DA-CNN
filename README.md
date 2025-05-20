@@ -17,7 +17,7 @@ BV-DA-CNN is designed for tasks where a model trained on a source domain dataset
     git clone https://github.com/wRuanMing/BV-DA-CNN.git
     cd BV-DA-CNN
     ```
-2.  **Install Dependencies:** This project is built upon [maskrcnn-benchmark](https://github.com/facebookresearch/maskrcnn-benchmark). Please follow the installation instructions provided in the `maskrcnn-benchmark` repository to set up the necessary environment and dependencies.
+2.  **Install Dependencies:** This project is built upon [maskrcnn-benchmark](https://github.com/facebookresearch/maskrcnn-benchmark). Please follow the installation instructions provided in the `maskrcnn-benchmark` repository to set up the necessary environment and dependencies. "Note on Directory Paths: The maskrcnn_benchmark and tools directories included in this repository may conflict with identically named directories from the base maskrcnn-benchmark framework if it's also in your Python path or project structure. Please ensure that scripts and import statements correctly reference the maskrcnn_benchmark and tools directories local to this project."
 
 ## Dataset Preparation
 
