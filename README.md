@@ -3,9 +3,7 @@
 
 This repository contains the official PyTorch implementation for **BV-DA-CNN**, the fully supervised domain adaptation method for object detection presented in our paper:
 
-**"An Artificial Intelligence Cloud Platform for OCT-based Retinal Disease Screening System in Real Clinical Environments"**
-*(Paper link to be added here)*
-
+[**"An artificial intelligence cloud platform for OCT-based retinal anomalies screening system in real clinical environments"**](https://www.nature.com/articles/s41746-025-01959-7)
 ## Introduction
 
 BV-DA-CNN is designed for tasks where a model trained on a source domain dataset (typically larger) needs to be adapted to perform well on a target domain dataset (typically smaller and with different data characteristics), specifically in the context of OCT-based retinal disease screening. This implementation focuses on object detection tasks.
